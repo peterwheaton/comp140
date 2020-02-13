@@ -1,29 +1,62 @@
 #wrapper {
+    background-color:#FFFFFF;
+    min-width:700px;
+    max-width:1024px;
+    box-shadow:5px 5px;
     margin-left:auto;
     margin-right:auto;
     width:80%;
+    display:block;
 }
 body {
-    background-image: url(background.jpg) 
+    background-image: url(background.jpg); 
     color:#666666;
     font-family:Ariel,sans-serif;
 }
+main {
+    padding-left:20px;
+    padding-right:20px;
+}
 h1 {
     background-color:#000033;
+    background-image: url(sunset.jpg);
+    background-position:right;
+    background-repeat:no-repeat;
+    padding-left:20px;
     color:#FFFFFF;
     font-family:Georgia, serif;
-    line-height:200%;
+    line-height:72px;
+    margin-bottom:0;
 }
 nav {
     font-weight: bold;
     background-color:#90C7E3;
+    padding:5px;
 }
-div homehero {
+nav a {
+    text-decoration:none;
+}
+#homehero {
     background-image: url(coast.jpg);
+    height:300px;
+    background-size:100%100%;
+}
+#yurthero {
+    background-image: url(yurt.jpg);
+    height:300px;
+    background-size:100%100%;
+}
+#trailhero {
+    background-image: url(trail.jpg);
+    height:300px;
+    background-size:100%100%;
 }
 h2 {
     color:#3399CC;
     font-family:Georgia,serif;
+}
+h3 {
+    color:#000033;
 }
 dt {
     font-weight: bold;
@@ -39,4 +72,5 @@ footer {
     font-weight:bold;
     font-style:italic;
     text-align:center;
+    padding:10px;
 }
