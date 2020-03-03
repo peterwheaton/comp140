@@ -1,0 +1,74 @@
+#wrapper {
+    background-color:#F5F5F5;
+    min-width:1200px;
+    max-width: 1480px;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+    display:block;
+}
+* {box-sizing: border-box;}
+body {
+    background-color:#3F2860;
+    color:#3F2860;
+    font-family:Verdana,sans-serif;
+}
+main {
+    padding-left:2em;
+    padding-right:2em;
+    padding-top:1em;
+    margin-left:170px;
+}
+h1 {
+    background-image: url(lilyheader.jpg);
+    background-size:auto 100%;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 150px;
+    background-color:#9BC1C2;
+    font-family:Verdana, sans-serif;
+    padding-top:50px;
+    padding-left:2em;
+    margin-bottom:0;
+}
+nav {
+    float:left;
+    width:160px;
+    font-weight: bold;
+    padding:1em;
+}
+nav a {
+    text-decoration:none;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    border-style:outset;
+    border-color: #CCCCCC;
+    padding:1em;
+    margin-bottom:1em;    
+}
+nav a:link {color:#3F2860;}
+nav a:visited {color:#487777;}
+nav a:hover {color:#A26100; border: 3px inset #333333;}
+nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+.studio {
+    font-style:italic;
+}
+.floatleft {
+    float:left;
+    margin-right: 4em;
+}
+.clear {
+    clear:both;
+}
+header, nav, main, footer { display: block;}
+footer {
+    background-color:#9BC1C2;
+    font-size:.60em;
+    font-style:italic;
+    text-align:center;
+    padding:1em;
+}
