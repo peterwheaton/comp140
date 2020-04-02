@@ -90,14 +90,14 @@ table {
     border-color:#3399CC;
     border-collapse: collapse;
 }
-tbody tr:nth-of-type(odd) {
+tr:nth-of-type(odd) {
     background-color:#F5FAFC;
 }
-thead th {
+th {
     padding:5px;
     border-width: 1px;
 }
-tbody td {
+td {
     padding: 5px;
     border-width: 1px;
     text-align: center;
